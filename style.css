@@ -1,0 +1,180 @@
+ @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@900&family=Sacramento&display=swap');
+
+
+body,*{
+  margin:0;
+  padding: 0;
+}
+ .logo{
+    height:100px;
+    margin-top:20px;
+}
+nav{
+  background-color: black;
+  height:4.2vw;
+}
+.navbar-nav{
+    font-family: cursive;
+}
+.nav-links{
+  font-weight: bold;
+  font-size: 1.6vw;
+  color: rgb(163, 212, 235);
+}
+#row2{
+    height: 637px;
+}
+.row2-h1{
+    color:#FF4820;
+    font-weight: bold;
+    text-align: center;
+    margin-top:225px;
+    font-family:serif;
+    border-bottom: 4px  solid rgb(226, 199, 199);
+}
+.row2-h3{
+    color: gray;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+}
+.responsive{
+    width: 100%;
+    max-width: 1500px;
+    max-height: 703px;
+    height: auto;
+    position:absolute;
+    top:0;left:0;
+    z-index:-1000;
+}
+#imagetext{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+/* #opacity_div{
+    background:black;
+    left:0px;
+    position:absolute;
+    opacity:0.3;
+    height:45.8vw;
+    width:51vw;
+    display: flex;
+ } */
+.top-left1 {
+    position: absolute;
+    top:18vw;
+    left: 0px;
+    /* font-weight:; */
+    font-family: 'Merienda', cursive;
+    color:rgb(219, 231, 175);
+    text-shadow: 2px 5px black;
+  }
+  .title2{
+    color:rgb(172, 169, 169);
+  }
+  @media screen and (min-width: 601px) {
+    .top-left1{
+      font-size: 3.4vw;
+    }
+    .row2-h1{
+      font-size:4rem;
+    }
+    /* #opacity_div{
+      height:45.8vw;
+      width:51vw;
+  } */
+}
+  @media screen and (max-width: 600px) {
+    .row2-h1{
+      font-size:3rem;
+    }
+    /* .top-left1{
+      font-size: 18px;
+      margin-top:-180px;
+    } */
+    /* #opacity_div{
+      height:46.1vw;
+      width:270px;
+  } */
+}
+#row3{
+  margin-top:45.8vw;
+}
+.biography{
+  background-color: white;
+  width:55vw;
+  height:46.4vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.heading{
+  padding-top:9vw;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2vw;
+}
+.bio{
+  font-family: serif;
+  font-size:1.6vw;
+  text-align:justify;
+  margin:35px;
+  margin-top:1vw;
+}
+.bioline{
+  padding-left:5vw;
+}
+.footer{
+  margin-top:2vw;
+}
+.facebook{
+  width:3vw;
+  /* height:40px; */
+  background-color:white;
+  border-radius:20px;
+  /* margin-left: 1vw; */
+}
+.instagram,.twitter{
+  width:3vw;
+  /* height:40px; */
+  background-color:white;
+  border-radius:30px;
+  margin-left: 2vw;
+}
+/* .twitter{
+  width:40px;
+  height:40px;
+  background-color:white;
+  border-radius:30px;
+} */
+.links{
+  margin-top: 1vw;
+}
+.hyperlink{
+  text-decoration: none;
+  font-size: 1vw;
+}
+.hyperlinks{
+  text-decoration: none;
+  font-size: 1vw;
+  padding-left: 2vw;
+}
+.terms{
+  margin-top:1vw;
+}
+.myname{
+  font-size: 1vw;
+  margin-top: 2vw;
+}
+.social{
+  font-size: 1.2vw;
+}
+.linkedin{
+  text-decoration: none;
+  font-weight: bold;
+}
+.nakuri{
+  text-decoration: none;
+  margin-left:2vw;
+  font-weight: bold;
+}
